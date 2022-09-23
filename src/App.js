@@ -2,21 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const a = "jamal karim"
+  const b = 2
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello</h1>
+        <p> My name is {a} </p>
+        <p> the square root of {b} is {b*b} </p>
       </header>
     </div>
   );
